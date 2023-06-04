@@ -1,0 +1,100 @@
+/* Add styles to match Spotify's web pages */
+
+/* Common styles for both desktop and mobile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1DB954;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1DB954;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for desktop */
+  main {
+    padding: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #search-results {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .selection-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #selected-track {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .sliders-container {
+    margin-bottom: 20px;
+  }
+  
+  #clear-selection {
+    background-color: #fff;
+    color: #1DB954;
+    border: 1px solid #1DB954;
+  }
+  
+  #generate-recommendations {
+    background-color: #1DB954;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for mobile */
+  @media only screen and (max-width: 600px) {
+    main {
+      padding: 10px;
+    }
+  
+    #search-input {
+      font-size: 14px;
+    }
+  
+    .selection-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #selected-track {
+      margin-bottom: 10px;
+    }
+  
+    .sliders-container {
+      margin-bottom: 10px;
+    }
+  }
+  
